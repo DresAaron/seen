@@ -36,3 +36,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: dist/pwa # The folder the action should deploy.
+          clean: true
+          branch: gh-pages
