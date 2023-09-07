@@ -26,7 +26,7 @@
       </template>
 
       <q-img
-        :placeholder-src="`images/placeholder.png`"
+        :placeholder-src="`public/images/placeholder.png`"
         :src="image"
         style="width: 100%"
         fit="contain"
@@ -60,6 +60,7 @@
             :key="i"
           />
         </div>
+        {{ apiKey }}
       </q-card-section>
 
       <q-card-actions>
