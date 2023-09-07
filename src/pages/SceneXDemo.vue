@@ -60,7 +60,7 @@
             :key="i"
           />
         </div>
-        {{ apiKey }}
+        api key - {{ apiKey }}
       </q-card-section>
 
       <q-card-actions>
