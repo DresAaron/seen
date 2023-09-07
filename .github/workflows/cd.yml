@@ -2,10 +2,11 @@ name: Build and Deploy
 concurrency:
   group: deploy
   cancel-in-progress: true
+
 on:
-  push:
-    branches:
-      - main
+  release:
+    types:
+      - "released"
 
 jobs:
   build-and-deploy:
