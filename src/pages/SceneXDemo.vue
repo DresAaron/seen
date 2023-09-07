@@ -26,7 +26,7 @@
       </template>
 
       <q-img
-        :placeholder-src="`public/images/placeholder.png`"
+        :placeholder-src="`images/placeholder.png`"
         :src="image"
         style="width: 100%"
         fit="contain"
@@ -71,7 +71,7 @@
           class="q-mx-auto"
           :disable="loading"
           @click="triggerMobileCapture"
-          >Open camera to capture sss
+          >Open camera to capture
         </q-btn>
       </q-card-actions>
     </q-card-section>
