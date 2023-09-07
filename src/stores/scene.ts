@@ -17,7 +17,7 @@ const useSceneStore = defineStore('scene', (): any => {
         apiKey.value = key;
         jinaai.value = new JinaAI({
           secrets: {
-            'scenex-secret': apiKey.value,
+            'scenex-secret': key,
           },
         });
       });
