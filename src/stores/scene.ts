@@ -29,7 +29,7 @@ const useSceneStore = defineStore('scene', (): any => {
       data: [
         {
           image: image,
-          algorithm: 'Flash',
+          algorithm: 'Glide',
           features: ['tts'],
           languages: ['zh-CN'],
         },
