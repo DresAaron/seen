@@ -38,3 +38,4 @@ jobs:
           folder: dist/pwa # The folder the action should deploy.
           clean: true
           branch: gh-pages
+          ssh-key: ${{ secrets.DEPLOY_KEY }}
