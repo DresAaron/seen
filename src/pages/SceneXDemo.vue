@@ -26,7 +26,7 @@
       </template>
 
       <q-img
-        :placeholder-src="`/images/placeholder.png`"
+        :placeholder-src="`images/placeholder.png`"
         :src="image"
         style="width: 100%"
         fit="contain"
