@@ -1,8 +1,8 @@
 {
   "name": "SceneXplain",
   "version": "0.0.1",
-  "description": "A Quasar Project",
-  "productName": "Quasar App",
+  "description": "SceneXplain",
+  "productName": "SceneXplain",
   "author": "",
   "private": true,
   "scripts": {
@@ -10,7 +10,7 @@
     "format": "prettier --write \"**/*.{js,ts,vue,scss,html,md,json}\" --ignore-path .gitignore",
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev",
-    "build": "quasar build -m pwa",
+    "build": "quasar build -m pwa -t ios",
     "dev-pwa": "quasar dev -m pwa -t ios"
   },
   "dependencies": {
